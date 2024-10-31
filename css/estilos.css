@@ -1,13 +1,14 @@
-* { margin: 0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Readex+Pro:wght@160..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');* { margin: 0; padding: 0; }
 
 body {
     background: #013B69;
-    font: 16px "Arial";
+    font: 16px 'Roboto', sans-serif;
 }
 
 fieldset {
     width: 60%;
     margin: 0 auto;
+    margin-top: 10px;
     padding: 1%;
     border: 2px solid #FFF;
     border-radius: 10px;
@@ -84,7 +85,40 @@ fieldset legend img {
     padding: 5px;
 }
 
+
 .pergunta ul li label input {
     width: 1px;
     height: 1px;
+}
+
+span {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+/* li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    padding: 10px;
+    background: #eeeeee8b;
+
+} */
+
+
+button {
+    cursor: pointer;
+}
+
+.pergunta label:active {
+    background: #f0f89c;
+}
+
+.pergunta label:hover {
+    background: #f0f89c;
+}
+
+.pergunta label:focus {
+    background: #f0f89c;
 }
